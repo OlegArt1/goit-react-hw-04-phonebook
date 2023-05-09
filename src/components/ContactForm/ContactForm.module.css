@@ -1,0 +1,96 @@
+.form
+{
+    padding: 40px 20px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(78, 77, 77);
+}
+.form__label
+{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form__span_text
+{
+    font-size: 18px;
+    color: rgb(221, 68, 221);
+}
+.form__input_name
+{
+    margin-left: 36px;
+}
+.form__input_number
+{
+    margin-left: 20px;
+}
+.form__input_name, .form__input_number
+{
+    padding-left: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    border: 2px solid orange;
+}
+.form__button_block
+{
+    display: flex;
+    justify-content: center;
+}
+.form__button
+{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    font-size: large;
+    border: 2px solid rgb(60, 60, 231);
+    background-color: rgb(60, 60, 231);
+    color: white;
+}
+    .form__button:hover
+    {
+        border: 2px solid rgb(95, 196, 95);
+        background-color: rgb(95, 196, 95);
+    }
+@media screen and (max-width: 720px)
+{
+    .form__span_text
+    {
+        font-size: 16px;
+    }
+    .form__input_name, .form__input_number
+    {
+        width: 280px;
+        height: 28px;
+        font-size: 15px;
+    }
+    .form__button
+    {
+        width: 140px;
+        height: 35px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 620px)
+{
+    .form__span_text
+    {
+        font-size: 14px;
+    }
+    .form__input_name, .form__input_number
+    {
+        width: 250px;
+        height: 25px;
+        font-size: 14px;
+    }
+    .form__button
+    {
+        width: 120px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
